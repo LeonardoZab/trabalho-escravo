@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  font-family: Helvetica, sans-serif;
+}
+
+@media(min-width:414px){
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+}
+
+  .navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* display: inline-block; */
+  /* width: 80px; */
+  /* -webkit-transition: all 0.2s ease-in-out; */
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #af2c2c;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner{
+  width: 26em;
+}
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner2{
+  width: 26em;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  color: #f6f4e6;
+  font-weight: 100;
+}
+
+pre{
+    font-family: Helvetica, sans-serif;
+    color: #f6f4e6;
+    font-weight: 100;
+}
+
+
+.pre2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.botao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  height: 5em;
+  width: 15em;
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #af2c2c;
+  border-color: #af2c2c;
+  
+}
+button:hover {
+  color: #fff;
+  background-color: #af2c2c;
+  border-color: #af2c2c;
+}
+.botao1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+/* ------------------------------- */
+
+@media(min-width:1000px){
+  .navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+  }
+  
+    .navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* display: inline-block; */
+    /* width: 80px; */
+    /* -webkit-transition: all 0.2s ease-in-out; */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color: #af2c2c;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner{
+    width: 60em;
+  }
+
+  .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner2{
+    width: 60em;
+  }
+  
+  p {
+    font-family: Helvetica, sans-serif;
+    color: #f6f4e6;
+    font-weight: 100;
+  }
+  
+  pre{
+      font-family: Helvetica, sans-serif;
+      color: #f6f4e6;
+      font-weight: 100;
+  }
+  
+
+  
+  .pre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  .botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button{
+    height: 5em;
+    width: 15em;
+    cursor: pointer;
+    outline: 0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #af2c2c;
+    border-color: #af2c2c;
+    
+  }
+  button:hover {
+    color: #fff;
+    background-color: #af2c2c;
+    border-color: #af2c2c;
+}
+
+.botao1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.botao4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+  }
