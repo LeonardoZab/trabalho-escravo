@@ -1,4 +1,3 @@
-
 let ctx = document.getElementById('grafico_pizza')
 
 // Configuração do gráfico 
@@ -37,3 +36,5 @@ const config = {
     data,
 
 }
+
+const graph = new Chart(ctx, config)

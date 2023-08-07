@@ -1,4 +1,3 @@
-
 let ctx = document.getElementById('grafico_barras')
 
 // Configuração do gráfico 
@@ -40,3 +39,5 @@ const config = {
         pointBorderColor: 'white',
       },
 }
+
+const graph = new Chart(ctx, config)

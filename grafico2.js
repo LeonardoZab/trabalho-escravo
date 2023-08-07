@@ -1,4 +1,3 @@
-
 let ctx = document.getElementById('grafico_linha')
 
 // Configuração do gráfico 
