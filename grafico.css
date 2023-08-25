@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     flex-direction: row;
@@ -5,9 +6,12 @@ body{
     align-items: center;
     background-color:#272727;
 }
+.tdo{
+    display: flex;
+    flex-direction: column;
+}
 
 p{
     color: white;
     text-align: center;
-    
 }
