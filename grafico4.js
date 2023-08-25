@@ -27,3 +27,5 @@ const config = {
     type: 'polarArea',
     data,
 }
+
+const graph = new Chart(ctx, config)
