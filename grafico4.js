@@ -24,7 +24,7 @@ const data = {
 }
 
 const config = {
-    type: 'polarArea',
+    type: 'doughnut',
     data,
 }
 
